@@ -18,6 +18,11 @@ public class Collitonsocal : MonoBehaviour
         instance = this;
     }
 
+
+    public void Start()
+    {
+        text.text ="-" + Random.Range(10, 30);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")

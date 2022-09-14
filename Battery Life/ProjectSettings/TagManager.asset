@@ -6,6 +6,9 @@ TagManager:
   tags:
   - social
   - win
+  - destory
+  - power
+  - obstacle
   layers:
   - Default
   - TransparentFX

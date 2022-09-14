@@ -15,7 +15,7 @@ public class GameMagangers : MonoBehaviour
 {
     public static GameMagangers instance;
     public GameStates gameState;
-
+    public int road_createing_value;
     private void Awake()
     {
         instance = this;
