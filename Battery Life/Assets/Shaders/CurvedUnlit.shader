@@ -4,6 +4,7 @@
 	{
 		_MainTex ("Texture", 2D) = "white" {}
 	}
+
 	SubShader
 	{
 		Tags { "RenderType"="Opaque" }
@@ -15,10 +16,8 @@
 			#pragma vertex vert
 			#pragma fragment frag
 			// make fog work 
-			#pragma multi_compile_fog
-				
+			#pragma multi_compile_fog		
 			#include "CurvedCode.cginc"
-
 			ENDCG
 		}
 	}

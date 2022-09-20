@@ -21,7 +21,7 @@ public class Collitonsocal : MonoBehaviour
 
     public void Start()
     {
-        text.text ="-" + Random.Range(10, 30);
+        text.text ="-" + Random.Range(5, 20);
     }
     private void OnTriggerEnter(Collider other)
     {

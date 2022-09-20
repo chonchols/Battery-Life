@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5183054729096219282}
   - component: {fileID: 5183054729096219281}
   - component: {fileID: 5183054729096219280}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 5183054730018984406}
   - component: {fileID: 5183054730018984405}
   - component: {fileID: 5183054730018984407}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: two
   m_TagString: power
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ Transform:
   m_GameObject: {fileID: 5183054730018984402}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 5183054729096219282}
   m_Father: {fileID: 0}

@@ -29,6 +29,7 @@ public class Battery_Charges : MonoBehaviour
         {
             
             GameMagangers.instance.gameState = GameStates.gameOver;
+            PlayerController.instance.animator.SetBool("runing", false);
             
         }
         if (now_charge < 101)

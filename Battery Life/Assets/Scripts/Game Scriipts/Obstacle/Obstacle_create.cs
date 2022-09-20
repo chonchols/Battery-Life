@@ -9,6 +9,7 @@ public class Obstacle_create : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             GameMagangers.instance.gameState = GameStates.gameOver;
+            PlayerController.instance.animator.SetBool("runing", false);
             Destroy(gameObject);
         }
     }
